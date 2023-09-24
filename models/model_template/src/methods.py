@@ -5,7 +5,6 @@ import sys
 import re
 import glob
 import copy
-import tempfile
 import matplotlib.pyplot as plt
 from getpass import getpass
 from tqdm.notebook import tqdm
