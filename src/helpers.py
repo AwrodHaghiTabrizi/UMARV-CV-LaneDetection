@@ -88,7 +88,7 @@ def download_datasets_from_dropbox(
             dbx_access_token = getpass("Enter your DropBox access token: ")
         dbx = dropbox.Dropbox(dbx_access_token)
     
-    dbx_datasets_dir = '/UMARV/ML/datasets'
+    dbx_datasets_dir = '/UMARV/ComputerVision/LaneDetection/datasets'
 
     if datasets is not None:
         dataset_dirs = datasets

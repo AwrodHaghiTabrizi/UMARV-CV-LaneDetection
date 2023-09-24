@@ -1,2 +1,2 @@
-# UMARV-Test-2
+# UMARV-CV-LaneDetection
 Test repository for UMARV Computer Vision
