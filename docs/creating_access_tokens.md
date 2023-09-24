@@ -1,6 +1,6 @@
 # DropBox
 
-Dropbox access tokens are needed to 
+Dropbox access tokens are needed to download and upload files from our scripts and notebooks.
 
 ## DropBox Initialization
 
@@ -23,7 +23,7 @@ Dropbox access tokens are needed to
 
 # GitHub
 
-GitHub access tokens are needed to push changes in the Google Colab and LambdaLabs environments
+GitHub access tokens are needed to push changes in the Google Colab and LambdaLabs environments.
 
 ## GitHub Generate Access Token
 
