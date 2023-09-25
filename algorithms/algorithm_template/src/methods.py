@@ -20,8 +20,8 @@ sys.path.append(f"{os.getenv('ALGORITHM_DIR')}/src")
 from dataset import *
 from lane_detector import *
 
-def create_dataset(datasets=None, benchmarks=None, include_all_datasets=True,
-                   include_unity_datasets=False, include_real_world_datasets=False, val_ratio=.2):
+def create_dataset(datasets=None, include_all_datasets=True,
+                   include_unity_datasets=False, include_real_world_datasets=False):
 
     dataset_dir = f"{os.getenv('ROOT_DIR')}/datasets"
 
