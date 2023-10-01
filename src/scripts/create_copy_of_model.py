@@ -8,10 +8,22 @@ import nbformat
 import re
 
 repo_dir = os.getcwd()
+#repo_dir = os.path.dirname(os.path.abspath(__file__))
+#src_dir = os.path.join(repo_dir, "src")
+#sys.path.append(src_dir)
+#from helpers import *
 
 src_dir = os.path.join(repo_dir, "src")
+print("Printing:" + src_dir)
 sys.path.append(src_dir)
+for path in sys.path:
+    print("Path:" + path)
 from helpers import *
+
+#script_dir = os.path.dirname(__file__)
+#src_dir = os.path.join(script_dir, "src")
+#sys.path.append(src_dir)
+#from helpers import *
 
 def main():
 
