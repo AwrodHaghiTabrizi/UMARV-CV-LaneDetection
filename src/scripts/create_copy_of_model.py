@@ -18,7 +18,8 @@ print("Printing:" + src_dir)
 sys.path.append(src_dir)
 for path in sys.path:
     print("Path:" + path)
-from helpers import *
+from helpers_directory.helpers import *
+from helpers_directory.helpers import base10_to_base36
 
 #script_dir = os.path.dirname(__file__)
 #src_dir = os.path.join(script_dir, "src")

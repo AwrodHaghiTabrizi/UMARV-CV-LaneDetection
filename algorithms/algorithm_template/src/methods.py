@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 
 sys.path.append(f"{os.getenv('REPO_DIR')}/src")
-from helpers import *
+from helpers_directory.helpers import *
 
 sys.path.append(f"{os.getenv('ALGORITHM_DIR')}/src")
 from dataset import *
