@@ -8,24 +8,28 @@ The models folder hosts all of our machine learning solutions, while the algorit
 
 ## Scripts
 
-The src/scripts folder hosts our scripts which provide varrying functionalities from model/algorithm initialization, performance comparison, and dataset generation. To run them, right click on the script and select "Run Python File in Terminal"
+The src/scripts folder hosts our scripts which provide varrying functionalities from model/algorithm initialization, performance comparison, and dataset generation. To run them, right click on the script and select "Run Python File in Terminal".
 
 ## How To Interact With This Repository
 
 1. Make sure you have git installed on your computer, guide [here](youtube.com)
-2. Go to https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/branches
-3. Click "New Branch"
-4. Branch name : "users/{your_initials}"
-5. Source : main
-6. Click "Create Branch"
-7. Create a UMARV folder <br>
+2. Get access to the GitHub repository from a team lead
+3. Go to https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/branches
+4. Click "New Branch"
+5. Branch name : "users/{your_initials}"
+6. Source : main
+7. Click "Create Branch"
+8. On your PC, create a UMARV folder <br>
 ├── UMARV/ <br>
-8. Create a Lane Detection folder <br>
+9. Create a Lane Detection folder <br>
 ├── UMARV/ <br>
 │ ├── LaneDetection/ <br>
-9. Right click into the LaneDetection folder
-10. Click "Git Bash Here"
-11. In the terminal, type "git clone -b {your_branch_name} https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection.git"
+10. Right click into the LaneDetection folder
+11. Click "Git Bash Here"
+12. In the terminal, type "git clone -b {your_branch_name} https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection.git"
+13. Open VSCode
+14. Click File > Open Folder
+15. Open the UMARV-CV-LaneDetection folder
 
 ### Repository Rules
 
