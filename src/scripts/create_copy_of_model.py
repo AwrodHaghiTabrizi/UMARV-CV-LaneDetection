@@ -10,7 +10,7 @@ import re
 repo_dir = os.getcwd()
 
 src_dir = os.path.join(repo_dir, "src")
-sys.path.append(src_dir)
+sys.path.insert(0, src_dir)
 from helpers import *
 
 def main():

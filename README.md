@@ -14,22 +14,23 @@ The src/scripts folder hosts our scripts which provide varrying functionalities 
 
 1. Make sure you have git installed on your computer, guide [here](youtube.com)
 2. Get access to the GitHub repository from a team lead
-3. Go to https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/branches
-4. Click "New Branch"
-5. Branch name : "users/{your_initials}"
-6. Source : main
-7. Click "Create Branch"
-8. On your PC, create a UMARV folder <br>
+3. Accept the invitation to the GitHub repository
+4. Go to https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/branches
+5. Click "New Branch"
+6. Branch name : "users/{your_initials}"
+7. Source : main
+8. Click "Create Branch"
+9. On your PC, create a UMARV folder <br>
 ├── UMARV/ <br>
-9. Create a Lane Detection folder <br>
+10. Create a Lane Detection folder <br>
 ├── UMARV/ <br>
 │ ├── LaneDetection/ <br>
-10. Right click into the LaneDetection folder
-11. Click "Git Bash Here"
-12. In the terminal, type "git clone -b {your_branch_name} https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection.git"
-13. Open VSCode
-14. Click File > Open Folder
-15. Open the UMARV-CV-LaneDetection folder
+11. Right click into the LaneDetection folder
+12. Click "Git Bash Here"
+13. In the terminal, type "git clone -b {your_branch_name} https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection.git"
+14. Open VSCode
+15. Click File > Open Folder
+16. Open the UMARV-CV-LaneDetection folder
 
 ### Repository Rules
 
