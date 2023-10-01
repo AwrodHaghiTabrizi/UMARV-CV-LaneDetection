@@ -15,11 +15,10 @@ repo_dir = os.getcwd()
 
 src_dir = os.path.join(repo_dir, "src")
 print("Printing:" + src_dir)
-sys.path.append(src_dir)
+sys.path.insert(0,src_dir)
 for path in sys.path:
     print("Path:" + path)
-from helpers_directory.helpers import *
-from helpers_directory.helpers import base10_to_base36
+from helpers import *
 
 #script_dir = os.path.dirname(__file__)
 #src_dir = os.path.join(script_dir, "src")

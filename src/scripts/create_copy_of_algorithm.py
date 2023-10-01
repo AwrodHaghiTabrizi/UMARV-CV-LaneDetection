@@ -11,7 +11,7 @@ repo_dir = os.getcwd()
 
 src_dir = os.path.join(repo_dir, "src")
 sys.path.append(src_dir)
-from helpers_directory.helpers import *
+from helpers import *
 
 def main():
 
