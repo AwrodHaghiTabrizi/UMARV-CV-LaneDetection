@@ -12,7 +12,7 @@ The src/scripts folder hosts our scripts which provide varrying functionalities 
 
 ## How To Interact With This Repository
 
-1. Make sure you have git installed on your computer, guide [here](youtube.com)
+1. Make sure you have git installed on your computer, guide [here](https://git-scm.com/downloads)
 2. Get access to the GitHub repository from a team lead
 3. Accept the invitation to the GitHub repository
 4. Go to https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/branches
@@ -26,11 +26,12 @@ The src/scripts folder hosts our scripts which provide varrying functionalities 
 ├── UMARV/ <br>
 │ ├── LaneDetection/ <br>
 11. Right click into the LaneDetection folder
-12. Click "Git Bash Here"
+12. Open a new terminal.
 13. In the terminal, type "git clone -b {your_branch_name} https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection.git"
 14. Open VSCode
 15. Click File > Open Folder
 16. Open the UMARV-CV-LaneDetection folder
+- Tip: Keep your working directory as UMARV-CV-LaneDetection when running scripts or notebooks
 
 ### Repository Rules
 
