@@ -40,13 +40,13 @@ The src/scripts folder hosts our scripts which provide varrying functionalities 
     - model/algorithm folders that dont belong to you
     - src/script (unless making updates)
     - model_template/algorithm_tempalte (unless making updates)
-- Work in your own branch. Pull before every work session. Push after every work session. [git tutorial](youtube.com)
+- Work in your own branch. Pull before every work session. Push after every work session. [git tutorial](https://www.w3schools.com/git/git_intro.asp?remote=github)
 
 ## Environments
 
 This repository allows development flexability to work in multiple environments, including: Windows, Mac, Google Colab, and LambdaLabs.
-- [Working in Google Colab](youtube.com)
-- [Working in LambdaLabs](youtube.com)
+- [Working with Google Colab](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/working_with_environments.md#google-colab)
+- [Working with LambdaLabs](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/working_with_environments.md#lambdalabs)
 
 ## Developing Models
 
@@ -54,7 +54,7 @@ This repository allows development flexability to work in multiple environments,
 2. Right click on either "create_model.py" or "create_copy_of_model.py"
 3. Click "Run Python File in Termainl"
 4. Answer the prompts in the terminal
-5. Go through [Working With Models](youtube.com)
+5. Go through [Working With Models](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/creating_models.md)
 
 ## Developing Algorithms
 
@@ -62,4 +62,4 @@ This repository allows development flexability to work in multiple environments,
 2. Right click on either "create_algorithm.py" or "create_copy_of_algorithm.py"
 3. Click "Run Python File in Termainl"
 4. Answer the prompts in the terminal
-5. Go through [Working With Algorithms](youtube.com)
+5. Go through [Working With Algorithms](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/creating_algorithms.md)
