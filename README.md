@@ -51,7 +51,7 @@ This repository allows development flexability to work in multiple environments,
 ## Developing Models
 
 1. Navigate to src/scripts
-2. Right click on either "create_model.py" or "create_copy_of_model.py"
+2. Right click on either "create_new_model.py" or "create_copy_of_model.py"
 3. Click "Run Python File in Termainl"
 4. Answer the prompts in the terminal
 5. Go through [Working With Models](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/creating_models.md)
@@ -59,7 +59,7 @@ This repository allows development flexability to work in multiple environments,
 ## Developing Algorithms
 
 1. Navigate to src/scripts
-2. Right click on either "create_algorithm.py" or "create_copy_of_algorithm.py"
+2. Right click on either "create_new_algorithm.py" or "create_copy_of_algorithm.py"
 3. Click "Run Python File in Termainl"
 4. Answer the prompts in the terminal
 5. Go through [Working With Algorithms](https://github.com/AwrodHaghiTabrizi/UMARV-CV-LaneDetection/blob/users/AHT/docs/creating_algorithms.md)

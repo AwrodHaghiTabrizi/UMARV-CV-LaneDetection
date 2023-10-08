@@ -14,6 +14,13 @@ Dropbox access tokens are needed to download and upload files from our scripts a
 8. Name the app "UMARV CV {your_umich_id}"
 9. Click "I Agree"
 10. Click "Create App"
+11. Click on the "Permissions" tab
+12. Place checkmarks on the following sections:
+    1. account_info.read
+    2. files.metadata.write
+    3. files.metadata.read
+    4. files.content.write
+    5. files.content.read
 
 ## DropBox Generate Access Token
 
