@@ -21,22 +21,6 @@ sys.path.insert(0, f"{os.getenv('MODEL_DIR')}/src")
 from dataset import *
 from architecture import *
 
-def upload_datasets_to_drive():
-    from google.colab import drive
-    drive.mount('/content/drive')
-    source_directory = '/content/datasets/'
-    destination_directory = '/content/drive/My Drive/datasets/'
-    shutil.copytree(source_directory, destination_directory)
-    return
-
-def get_datasets_from_drive():
-    from google.colab import drive
-    drive.mount('/content/drive')
-    source_directory = '/content/drive/My Drive/datasets/'
-    destination_directory = '/content/datasets/'
-    shutil.copytree(source_directory, destination_directory)
-    return
-
 def set_device():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if torch.cuda.is_available():
@@ -380,3 +364,19 @@ def show_sample_results(model, dataset, device, output_threshold=.5, num_samples
         axs[i, 2].set_title("Soft Output")
         axs[i, 3].imshow(ones_output.detach().squeeze().detach().clamp(0,1).cpu().numpy(), cmap='gray')
         axs[i, 3].set_title("Binary Output")
+
+def upload_datasets_to_drive():
+    from google.colab import drive
+    drive.mount('/content/drive')
+    source_directory = '/content/datasets/'
+    destination_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
+    shutil.copytree(source_directory, destination_directory)
+    return
+
+def get_datasets_from_drive():
+    from google.colab import drive
+    drive.mount('/content/drive')
+    source_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
+    destination_directory = '/content/datasets/'
+    shutil.copytree(source_directory, destination_directory)
+    return
