@@ -371,7 +371,6 @@ def upload_datasets_to_google_drive():
     source_directory = '/content/datasets/'
     destination_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
     shutil.copytree(source_directory, destination_directory)
-    return
 
 def get_datasets_from_google_drive():
     from google.colab import drive
@@ -379,4 +378,3 @@ def get_datasets_from_google_drive():
     source_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
     destination_directory = '/content/datasets/'
     shutil.copytree(source_directory, destination_directory)
-    return

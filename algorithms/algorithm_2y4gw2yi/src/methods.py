@@ -177,3 +177,17 @@ def show_sample_results(dataset, num_samples=5):
         axs[i, 2].set_title("Output")
         axs[i, 3].imshow(binary_output, cmap='gray')
         axs[i, 3].set_title("Binary Output")
+
+def upload_datasets_to_google_drive():
+    from google.colab import drive
+    drive.mount('/content/drive')
+    source_directory = '/content/datasets/'
+    destination_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
+    shutil.copytree(source_directory, destination_directory)
+
+def get_datasets_from_google_drive():
+    from google.colab import drive
+    drive.mount('/content/drive')
+    source_directory = '/content/drive/My Drive/UMARV/LaneDetection/datasets/'
+    destination_directory = '/content/datasets/'
+    shutil.copytree(source_directory, destination_directory)
