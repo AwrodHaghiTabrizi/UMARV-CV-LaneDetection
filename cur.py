@@ -13,7 +13,9 @@ while cap.isOpened():
     if success:
 
         results = model(frame)
-        print(results)
+        for r in results:
+            print(r.probs)
+        
 
         annotated_frame = results[0].plot()
 
