@@ -35,15 +35,29 @@ for count, i in enumerate(numbers):
 
 print(x)
 
-plt.scatter(x, y, label= "stars", color= "green",  
-    marker= "*", s=30) 
+# plt.scatter(x, y, label= "stars", color= "green",  
+#     marker= "*", s=30) 
 
-# x-axis label 
+# # x-axis label 
+# plt.xlabel('x - axis') 
+# # frequency label 
+# plt.ylabel('y - axis') 
+# # plot title 
+# plt.title('My scatter plot!') 
+# # showing legend 
+# plt.legend() 
+# plt.show()
+
+plt.plot(x, y, label = "line 2")
+
 plt.xlabel('x - axis') 
-# frequency label 
+# naming the y axis 
 plt.ylabel('y - axis') 
-# plot title 
-plt.title('My scatter plot!') 
-# showing legend 
+# giving a title to my graph 
+plt.title('Two lines on same graph!') 
+  
+# show a legend on the plot 
 plt.legend() 
+  
+# function to show the plot 
 plt.show()
