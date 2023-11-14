@@ -1,5 +1,6 @@
 import cv2
 from ultralytics import YOLO
+
 model = YOLO("best.pt")
 
 video_path = "comp23_4.mp4"
@@ -11,18 +12,21 @@ while cap.isOpened():
     success, frame = cap.read()
 
     if success:
-
+        
         results = model(frame)
-        for r in results:
-            print(r.probs)
+        # print(results)
+        # for r in results:
+        #     print(r.probs)
         
 
         annotated_frame = results[0].plot()
-
+        
+        #print(y)
         #print(annotated_frame)
 
         cv2.imshow("YOLO", annotated_frame)
-
+        
+        
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
