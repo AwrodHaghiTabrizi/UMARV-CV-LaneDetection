@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
-
-
+import numpy as np
+from skimage import draw
+import numpy as np
+def poly2mask(vertex_row_coords, vertex_col_coords, shape):
+    fill_row_coords, fill_col_coords = draw.polygon(vertex_row_coords, vertex_col_coords, shape)
+    mask = np.zeros(shape, dtype=bool)
+    mask[fill_row_coords, fill_col_coords] = True
+    return mask
 
 
 file_path = 'comp23_4_3.txt'  # Replace with the path to your text file
@@ -33,7 +39,12 @@ for count, i in enumerate(numbers):
     else:
         y.append(i * 384)
 
-print(x)
+#print(x)
+shape = (640,384)
+mask = poly2mask(x,y,shape)
+print(mask)
+np.savetxt("foo.csv", mask, delimiter=",")
+
 
 # plt.scatter(x, y, label= "stars", color= "green",  
 #     marker= "*", s=30) 
@@ -48,16 +59,20 @@ print(x)
 # plt.legend() 
 # plt.show()
 
-plt.plot(x, y, label = "line 2")
+# plt.plot(x, y, label = "line 2")
 
-plt.xlabel('x - axis') 
-# naming the y axis 
-plt.ylabel('y - axis') 
-# giving a title to my graph 
-plt.title('Two lines on same graph!') 
+# plt.xlabel('x - axis') 
+# # naming the y axis 
+# plt.ylabel('y - axis') 
+# # giving a title to my graph 
+# plt.title('Two lines on same graph!') 
   
-# show a legend on the plot 
-plt.legend() 
+# # show a legend on the plot 
+# plt.legend() 
   
-# function to show the plot 
-plt.show()
+# # function to show the plot 
+# plt.show()
+
+# rows, cols = len(x), len(y)
+# occupancy_grid = np.zeros((rows, cols), dtype=float)
+# print(occupancy_grid)
